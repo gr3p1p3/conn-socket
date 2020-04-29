@@ -4,6 +4,10 @@ Create a connected TCP-Socket for tunneling your requests under HTTP-Proxy.
 
 Absolute Beta-Version, Issues are welcome.
 
+## Install
+
+`npm i conn-socket`
+
 ## Docs
 
 The module only need one object as parameter and resolves to [tcpSocket](https://nodejs.org/api/net.html#net_class_net_socket) or **false**.
