@@ -3,9 +3,9 @@
  * @param {Object} options
  * @param {String} options.proxyHost - Host of HTTP-Proxy to use.
  * @param {Number} options.proxyPort - Port of HTTP-Proxy
- * @param {String} options.targetHost
- * @param {Number} options.targetPort
- * @param {Number} options.timeout
+ * @param {String} options.targetHost - Target host
+ * @param {Number} options.targetPort - Target port
+ * @param {Number} options.timeout - max. time-to-live
  * @return {Promise} - Resolves to tunneled Tcp-Socket or false.
  */
 module.exports = function getTunneledSocket(options) {

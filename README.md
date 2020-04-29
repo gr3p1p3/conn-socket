@@ -1,8 +1,24 @@
-#conn-socket
+# conn-socket
 
 Create a connected TCP-Socket for tunneling your requests under HTTP-Proxy.
 
 Absolute Beta-Version, Issues are welcome.
+
+## Docs
+
+The module only need one object as parameter and resolves to [tcpSocket](https://nodejs.org/api/net.html#net_class_net_socket) or **false**.
+
+Object-Attributes are:
+
+| Param  | Type                | Description  |
+| ------ | ------------------- | ------------ |
+|proxyHost | <code>String</code> |  Host of HTTP-Proxy to use. |
+|proxyPort | <code>Number</code> |  Port of HTTP-Proxy. |
+|targetHost | <code>String</code> |  Target host. |
+|targetPort | <code>Number</code> |  Target port. |
+|[timeout] | <code>Number</code> |  Optional time-to-live. |
+
+
 
 ## Examples
 
